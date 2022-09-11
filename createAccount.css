@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+.input-design {
+    font-size: 14px;
+    height: 20px;
+    padding: 6px 8px;
+    margin: 10px;
+}
+
+.main-page {
+    background-color: white;
+    direction: unset;
+    align-items: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.google {
+    display: flex;
+}
+
+.w1 {
+    color: #4285F4;
+}
+
+.w2 {
+    color: #EA4335;
+}
+
+.w3 {
+    color: #FBBC05;
+}
+
+.w4 {
+    color: #4285F4;
+}
+
+.w5 {
+    color: #34A853;
+}
+
+.w6 {
+    color: #EA4335;
+}
+
+.create {
+    display: flex;
+}
+
+.input-design-userName {
+    width: calc(100% - 40px);
+}
+
+.dob {
+    display: flex ;
+    gap: 25px;
+}
+
+.date {
+
+}
+
+.country {
+    display: flex ;
+    gap: 25px;
+}
