@@ -57,15 +57,57 @@ html {
 }
 
 .dob {
-    display: flex ;
+    display: flex;
     gap: 25px;
 }
 
-.date {
-
-}
+.date {}
 
 .country {
-    display: flex ;
+    display: flex;
     gap: 25px;
 }
+
+.cercle::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.hello::before {
+    content: "$";
+color: #EA4335;
+}
+
+.hello::after {
+    content: "$";
+color: #EA4335;
+}
+
+.king:hover {
+    color: #34A853;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
