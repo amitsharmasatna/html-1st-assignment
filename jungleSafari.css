@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+
+img {
+    margin: inherit;
+}
+
+.image {
+    width: 1000px;
+}
+
+.link {
+    margin: 50px;
+}
+
+.link:hover {
+        color: rgb(21, 232, 56);
+}
+
+table {
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.visitor_data {
+    text-align: -webkit-center;
+}
+
+.heading {
+    color: #d11e1e;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1:hover {
+color: rgb(19, 208, 98);
+}
+
+table:hover {
+    /* background-color: aquamarine; */
+}
+
+td:hover {
+    background-color: aqua;
+    color:rgb(232, 6, 21)
+}
+
+.btn {
+    width: 1042px;
+    background-color: darksalmon;
+}
+
+.btn:hover {
+    background-color: rgb(108, 235, 214);
+}
+
+input:hover {
+    background-color: aquamarine;
+}
+
+.footer-note {
+    font-size: 220%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.footer-note:hover {
+    color: #000000;
+}
+
