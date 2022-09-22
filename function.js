@@ -77,7 +77,7 @@ areaOfRectamgle(10, 20);
 
 // NEW Function
 
-function ageComparison(age) {
+function ageComparison(age) {git 
     if (age < 10) {
         return 'Age is less than the 10'
     } else if (age >= 10 && age <= 30) {
